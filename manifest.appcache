@@ -4,3 +4,5 @@ index.html
 index.md
 NETWORK: 
 *
+FALLBACK:
+/ /index.html
