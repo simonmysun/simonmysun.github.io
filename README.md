@@ -1,2 +1,2 @@
 # simonmysun.github.io
-personal website. not a encouraged usage of github. 
+Personal website. Not a encouraged usage of github. 
