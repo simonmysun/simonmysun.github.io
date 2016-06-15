@@ -5,7 +5,8 @@ Maoyin Sun's Home Page
 
 He is nothing now.
 
-New website in progress. [View original website](https://simonmysun.github.io/simonmysun.github.io.2015)
+New website in progress. [View original website](
+https://simonmysun.github.io/simonmysun.github.io.2015)
 
 ## Connect
 
@@ -19,19 +20,30 @@ New website in progress. [View original website](https://simonmysun.github.io/si
 
 ## Notice
 
-This website may leave intended data on your browser, such as cookies, cache, local storage, etc. Your browser will automatically try to send information to whom the author specified. By continuing to browse the site you are obligated to know what you are doing and keep self-censored. The author of this site does not assume any responsibility for the usage of it.
+This website may leave intended data on your browser, such as cookies, cache,
+local storage, etc.
+
+Your browser will automatically try to send information to whom the author spe-
+cified.
+
+By continuing to browse the site you are obligated to know what you are doing
+and keep self-censored.
+
+The author of this site does not assume any responsibility for the usage of it.
 
 ## License
 
-© Some rights reserved:
+Unless otherwise specified, you are free to:
 
-Unless otherwise specified, You are free to:
-
-copy, redistribute, remix, transform, and build upon the material in any medium or format, for any purpose, even commercially
+copy, redistribute, remix, transform, and build upon the material in any medium
+or format, for any purpose, even commercially
 
 under the following terms:
 
-- You must not provide any information of the creator and attribution parties, or a link to the material, in any way. 
-- You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+- You must not provide any information of the creator and attribution parties,
+or a link to the material, in any way. 
+- You may not apply legal terms or technological measures that legally restrict
+others from doing anything the license permits.
 
-Text above is modified from CC BY License. These text and the legal code of the license is being completed. 
+Text above is modified from CC BY License. These text and the legal code of the
+license is being completed. 
