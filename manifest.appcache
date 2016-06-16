@@ -1,7 +1,9 @@
 CACHE MANIFEST
 CACHE:
 index.html
+404.html
+offline.html
 NETWORK: 
 *
 FALLBACK:
-/ /index.html
+/ /offline.html
