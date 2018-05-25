@@ -1,0 +1,19 @@
+.remarkdown {
+    white-space: unset;
+    max-width: 65em;
+    margin: 0 auto;
+}
+
+.remarkdown ::before,
+.remarkdown ::after {
+    color: #777;
+}
+
+.remarkdown a {
+    color: #333;
+    text-decoration: none;
+}
+
+.remarkdown.ul-star ul > li::before {
+    margin-left: -2ch;
+}

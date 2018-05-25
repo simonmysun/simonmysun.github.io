@@ -1,8 +1,0 @@
-CACHE MANIFEST
-CACHE:
-index.html
-404.html
-NETWORK: 
-*
-FALLBACK:
-/ /404.html
