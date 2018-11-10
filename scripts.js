@@ -22,7 +22,7 @@ var decorate = function(oldDom, newHTML) {
 
 
 if(window.SharedWorker) {
-    var renderer = new SharedWorker('worker.js');
+    var renderer = new SharedWorker('/worker.js');
     renderer.port.onmessage = function(e) {
         decorate(mainDom, e.data)
     };
