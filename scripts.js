@@ -1,11 +1,11 @@
 var remarkdownCss = document.createElement('link');
-remarkdownCss.href = './assets/remarkdown.css';
+remarkdownCss.href = '/assets/remarkdown.css';
 remarkdownCss.type = 'text/css';
 remarkdownCss.rel = "stylesheet"
 document.head.append(remarkdownCss);
 
 var customCss = document.createElement('link');
-customCss.href = './styles.css';
+customCss.href = '/styles.css';
 customCss.type = 'text/css';
 customCss.rel = 'stylesheet'
 document.head.append(customCss);
