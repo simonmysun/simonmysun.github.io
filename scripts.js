@@ -46,7 +46,7 @@ if(window.SharedWorker) {
         }
         script.src = url;
         document.getElementsByTagName("head")[0].appendChild(script);
-    })('https://cdn.jsdelivr.net/npm/marked/marked.min.js', function() {
+    })('/assets/marked.min.js', function() {
         decorate(mainDom, marked(mainDom.innerHTML));
     });
 }
