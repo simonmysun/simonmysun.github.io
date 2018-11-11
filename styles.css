@@ -15,24 +15,3 @@ body {
     text-align: left;
     background-color: #fff;
 }
-
-.remarkdown {
-    white-space: unset;
-    max-width: 65em;
-    margin: 0 auto;
-    padding: 1em 0.5em;
-}
-
-.remarkdown ::before,
-.remarkdown ::after {
-    color: #777;
-}
-
-.remarkdown a {
-    color: #333;
-    text-decoration: none;
-}
-
-.remarkdown.ul-star ul > li::before {
-    margin-left: -2ch;
-}
