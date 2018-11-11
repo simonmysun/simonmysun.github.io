@@ -18,15 +18,15 @@
 .remarkdown h1 {
   font-size: inherit;
   font-weight: inherit;
-  margin-top: 2.25em;
-  margin-bottom: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .remarkdown h2 {
   font-size: inherit;
   font-weight: inherit;
-  margin-top: 2.25em;
-  margin-bottom: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .remarkdown h3,
@@ -35,8 +35,8 @@
 .remarkdown h6 {
   font-size: inherit;
   font-weight: inherit;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .remarkdown h1::before {
@@ -97,18 +97,18 @@
 }
 
 .remarkdown p {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .remarkdown figure {
-  margin: 1.5em 0 1.5em;
+  margin: 1em 0 1em;
 }
 
 hr {
   height: 1.5em;
   line-height: 1.5em;
-  margin: 1.5em 0 1.5em;
+  margin: 1em 0 1em;
   border: none;
   color: inherit;
 }
@@ -126,7 +126,7 @@ hr {
 }
 
 .remarkdown ul {
-  margin: 1.5em 0ch 1.5em 4ch;
+  margin: 1em 0ch 1em 4ch;
   padding: 0;
 }
 
@@ -172,7 +172,7 @@ hr {
 }
 
 .remarkdown ol {
-  margin: 1.5em 0ch 1.5em 4ch;
+  margin: 1em 0ch 1em 4ch;
   padding: 0;
 }
 
@@ -281,8 +281,8 @@ hr {
 }
 
 .remarkdown pre {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   tab-size: 4;
 }
 
@@ -325,7 +325,7 @@ hr {
 }
 
 .remarkdown blockquote {
-  margin: 1.5em 2ch 1.5em 2ch;
+  margin: 1em 2ch 1em 2ch;
   padding: 0;
 }
 
@@ -355,8 +355,8 @@ hr {
 }
 
 .remarkdown.table-marker table {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   border-collapse: collapse;
 }
 
@@ -375,7 +375,7 @@ hr {
 }
 
 .remarkdown.table-marker tr:first-child > th:not([scope="row"]) {
-  padding-bottom: 1.5em;
+  padding-bottom: 1em;
 }
 
 .remarkdown.table-marker tr:first-child > th:not([scope="row"])::after {
