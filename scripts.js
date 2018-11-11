@@ -26,7 +26,7 @@ if(window.SharedWorker) {
     renderer.port.onmessage = function(e) {
         decorate(mainDom, e.data)
     };
-    renderer.port.postMessage(mainDom.innerHTML);
+    renderer.port.postMessage(mainDom.innerHTML.replace(/&gt;+/g, '>'));
 } else {
     (function(url, callback){
         var script = document.createElement('script')
@@ -47,6 +47,6 @@ if(window.SharedWorker) {
         script.src = url;
         document.getElementsByTagName("head")[0].appendChild(script);
     })('/assets/marked.min.js', function() {
-        decorate(mainDom, marked(mainDom.innerHTML));
+        decorate(mainDom, marked(mainDom.innerHTML.replace(/&gt;+/g, '>')));
     });
 }
