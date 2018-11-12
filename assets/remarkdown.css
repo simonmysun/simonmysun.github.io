@@ -3,12 +3,14 @@
   Included: all styles
   Defaults: hn-reset hn-hash ul-hyphen ol-decimal quote-gt em-star strong-star a-bracket code-tick pre-indent hr-star
 */
-/* Edited */
+/* Modified */
 
 .remarkdown {
     line-height: 1.5;
     font-family: monospace, monospace;
-    white-space: unset;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
     max-width: 65em;
     margin: 0 auto;
     padding: 1em 0.5em;
