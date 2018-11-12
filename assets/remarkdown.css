@@ -7,10 +7,11 @@
 
 .remarkdown {
     line-height: 1.5;
-    font-family: monospace, monospace;
+    font-family: monospace;
     white-space: normal;
     word-wrap: break-word;
     word-break: break-all;
+    hyphens: auto;
     max-width: 65em;
     margin: 0 auto;
     padding: 1em 0.5em;
