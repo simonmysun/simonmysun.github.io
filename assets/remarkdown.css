@@ -12,9 +12,9 @@
     word-wrap: break-word;
     word-break: break-all;
     hyphens: auto;
-    max-width: 65em;
+    max-width: 80ch;
     margin: 0 auto;
-    padding: 1em 0.5em;
+    padding: 1em 1ch;
 }
 
 .remarkdown pre,

@@ -16,10 +16,10 @@ var decorate = function(oldDom, newHTML) {
     oldDom.innerHTML = newHTML;
     oldDom.className = 'remarkdown h1-underline ul-star em-star strong-star a-showurl code-tick pre-tick';
     oldDom.style.whiteSpace = '';
+    oldDom.style.fontFamily = '';
     oldDom.style.maxWidth = '';
     oldDom.style.margin = '';
 };
-
 
 if(window.SharedWorker) {
     var renderer = new SharedWorker('/worker.js');
