@@ -17,6 +17,11 @@ body {
     color: #ddd;
 }
 
+*::selection {
+    color: #222;
+    background: #ddd;
+}
+
 *:focus {
     outline: 1px solid #777;
 }
