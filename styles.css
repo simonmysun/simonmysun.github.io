@@ -27,6 +27,6 @@ body {
 }
 
 img {
-    max-width: 78ch;
+    max-width: min(78ch, calc(100vmin - 2ch));
     object-fit: contain;
 }
