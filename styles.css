@@ -25,3 +25,8 @@ body {
 *:focus {
     outline: 1px solid #777;
 }
+
+img {
+    max-width: min(78ch, calc(100vmin - 4ch));
+    object-fit: contain;
+}
