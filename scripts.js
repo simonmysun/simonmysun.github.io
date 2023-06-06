@@ -32,7 +32,7 @@ if (window.SharedWorker) {
     renderer.port.onmessage = function (e) {
         decorate(mainDom, e.data);
     };
-    renderer.port.postMessage(mainDom.innerHTML.replace(/&gt;+/g, '>'));
+    renderer.port.postMessage(mainDom.innerText.replace(/&gt;+/g, '>'));
 } else {
     var loadJs = function (url, callback) {
         var script = document.createElement('script')
@@ -55,7 +55,7 @@ if (window.SharedWorker) {
     };
     loadJs('/assets/marked.min.js', function () {
         loadJs('/assets/highlight.min.js', function() {
-            decorate(mainDom, hljs.highlightAuto(marked(mainDom.innerHTML.replace(/&gt;+/g, '>'))));
+            decorate(mainDom, hljs.highlightAuto(marked(mainDom.innerText.replace(/&gt;+/g, '>'))));
         });
     });
 }
