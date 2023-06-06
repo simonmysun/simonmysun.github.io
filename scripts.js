@@ -56,6 +56,6 @@ if (window.SharedWorker) {
     loadJs('/assets/marked.min.js', function () {
         loadJs('/assets/highlight.min.js', function() {
             decorate(mainDom, hljs.highlightAuto(marked(mainDom.innerHTML.replace(/&gt;+/g, '>'))));
-        }  
+        });
     });
 }
