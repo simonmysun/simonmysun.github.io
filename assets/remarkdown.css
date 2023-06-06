@@ -306,7 +306,7 @@ hr {
 }
 
 .remarkdown pre {
-  white-space: normal;
+  white-space: pre-wrap;
 }
 
 .remarkdown.pre-tick pre::before,
