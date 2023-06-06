@@ -9,8 +9,8 @@
     line-height: 1.5;
     font-family: monospace;
     white-space: normal;
-    word-wrap: break-word;
-    word-break: break-all;
+    overflow-wrap: normal;
+    word-break: break-word;
     hyphens: auto;
     max-width: 80ch;
     margin: 0 auto;
@@ -26,14 +26,14 @@
 
 .remarkdown h1 {
   font-size: inherit;
-  font-weight: inherit;
+  font-weight: 700;
   margin-top: 2em;
   margin-bottom: 1em;
 }
 
 .remarkdown h2 {
   font-size: inherit;
-  font-weight: inherit;
+  font-weight: 600;
   margin-top: 2em;
   margin-bottom: 1em;
 }
@@ -43,7 +43,7 @@
 .remarkdown h5,
 .remarkdown h6 {
   font-size: inherit;
-  font-weight: inherit;
+  font-weight: 500;
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -301,8 +301,12 @@ hr {
 }
 
 .remarkdown pre {
-  margin-left: 4ch;
+  margin-left: 0ch;
   margin-right: 0ch;
+}
+
+.remarkdown pre {
+  white-space: normal;
 }
 
 .remarkdown.pre-tick pre::before,
@@ -354,7 +358,7 @@ hr {
   bottom: 0;
   width: 1ch;
   overflow: hidden;
-  white-space: pre;
+  white-space: normal;
   content: ">\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a>\a";
   cursor: default;
 }
