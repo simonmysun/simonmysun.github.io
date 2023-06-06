@@ -5,7 +5,7 @@ remarkdownCss.rel = "stylesheet"
 document.head.append(remarkdownCss);
 
 var hljsCss = document.createElement('link');
-hljsCss.href = '/asstes/hljs-grayscale.css';
+hljsCss.href = '/assets/hljs-grayscale.css';
 hljsCss.type = 'text/css';
 hljsCss.rel = 'stylesheet'
 document.head.append(hljsCss);
