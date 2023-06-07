@@ -26,36 +26,29 @@ var decorate = function (oldDom, newHTML) {
     oldDom.style.maxWidth = '';
     oldDom.style.margin = '';
 };
-
-if (window.SharedWorker) {
-    var renderer = new SharedWorker('/worker.js');
-    renderer.port.onmessage = function (e) {
-        decorate(mainDom, e.data);
-    };
-    renderer.port.postMessage(mainDom.innerText.replace(/&gt;+/g, '>'));
-} else {
-    var loadJs = function (url, callback) {
-        var script = document.createElement('script')
-        script.type = 'text/javascript';
-        if (script.readyState) {  //IE
-            script.onreadystatechange = function () {
-                if (script.readyState == 'loaded' ||
-                    script.readyState == 'complete') {
-                    script.onreadystatechange = null;
-                    callback();
-                }
-            };
-        } else {  //Others
-            script.onload = function () {
+var loadJs = function (url, callback) {
+    var script = document.createElement('script')
+    script.type = 'text/javascript';
+    if (script.readyState) {  //IE
+        script.onreadystatechange = function () {
+            if (script.readyState == 'loaded' ||
+                script.readyState == 'complete') {
+                script.onreadystatechange = null;
                 callback();
-            };
-        }
-        script.src = url;
-        document.getElementsByTagName("head")[0].appendChild(script);
-    };
-    loadJs('/assets/marked.min.js', function () {
-        loadJs('/assets/highlight.min.js', function() {
-            decorate(mainDom, hljs.highlightAuto(marked(mainDom.innerText.replace(/&gt;+/g, '>'))).value);
-        });
+            }
+        };
+    } else {  //Others
+        script.onload = function () {
+            callback();
+        };
+    }
+    script.src = url;
+    document.getElementsByTagName("head")[0].appendChild(script);
+};
+
+loadJs('/assets/marked.min.js', function () {
+    decorate(mainDom, marked(mainDom.innerText.replace(/&gt;+/g, '>')));
+    loadJs('/assets/highlight.min.js', function() {
+        hljs.highlightAll();
     });
-}
+});
