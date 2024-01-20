@@ -38,13 +38,25 @@ var loadCSS = function (url) {
     document.head.append(styleEl);
 };
 
+MathJax = {
+    tex: {
+        inlineMath: [
+            ['$', '$'],
+            ['\\(', '\\)']
+        ],
+        displayMath: [
+            ['$$', '$$'],
+            ['\\[', '\\]']
+        ]
+    }
+};
+
 loadJs('/assets/marked.min.js', function () {
     decorate(mainDom, marked(mainDom.innerText.replace(/&gt;+/g, '>')));
     loadJs('/assets/highlight.min.js', function () {
         hljs.highlightAll();
     });
 });
-
 loadJs('/assets/mathjax/tex-mml-svg.js', function () { });
 
 loadCSS('/assets/remarkdown.css');
