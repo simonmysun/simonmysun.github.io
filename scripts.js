@@ -1,20 +1,3 @@
-var remarkdownCss = document.createElement('link');
-remarkdownCss.href = '/assets/remarkdown.css';
-remarkdownCss.type = 'text/css';
-remarkdownCss.rel = "stylesheet"
-document.head.append(remarkdownCss);
-
-var hljsCss = document.createElement('link');
-hljsCss.href = '/assets/hljs-grayscale.css';
-hljsCss.type = 'text/css';
-hljsCss.rel = 'stylesheet'
-document.head.append(hljsCss);
-
-var customCss = document.createElement('link');
-customCss.href = '/styles.css';
-customCss.type = 'text/css';
-customCss.rel = 'stylesheet'
-document.head.append(customCss);
 
 var mainDom = document.getElementById('main');
 
@@ -26,6 +9,7 @@ var decorate = function (oldDom, newHTML) {
     oldDom.style.maxWidth = '';
     oldDom.style.margin = '';
 };
+
 var loadJs = function (url, callback) {
     var script = document.createElement('script')
     script.type = 'text/javascript';
@@ -46,9 +30,23 @@ var loadJs = function (url, callback) {
     document.getElementsByTagName("head")[0].appendChild(script);
 };
 
+var loadCSS = function (url) {
+    var styleEl = document.createElement('link');
+    styleEl.href = url;
+    styleEl.type = 'text/css';
+    styleEl.rel = "stylesheet"
+    document.head.append(styleEl);
+};
+
 loadJs('/assets/marked.min.js', function () {
     decorate(mainDom, marked(mainDom.innerText.replace(/&gt;+/g, '>')));
-    loadJs('/assets/highlight.min.js', function() {
+    loadJs('/assets/highlight.min.js', function () {
         hljs.highlightAll();
     });
 });
+
+loadJs('/assets/mathjax/tex-mml-svg.js', function () { });
+
+loadCSS('/assets/remarkdown.css');
+loadCSS('/assets/hljs-grayscale.css');
+loadCSS('/styles.css');
