@@ -10,7 +10,7 @@ var decorate = function (oldDom, newHTML) {
     oldDom.style.margin = '';
 };
 
-var loadJs = function (url, callback) {
+var loadJs = function (url, async, defer, callback) {
     var script = document.createElement('script')
     script.type = 'text/javascript';
     if (script.readyState) {  //IE
@@ -51,13 +51,13 @@ MathJax = {
     }
 };
 
-loadJs('/assets/marked.min.js', function () {
+loadJs('/assets/marked.min.js', false, false, function () {
     decorate(mainDom, marked(mainDom.innerText.replace(/&gt;+/g, '>')));
-    loadJs('/assets/highlight.min.js', function () {
+    loadJs('/assets/highlight.min.js', false, true, function () {
         hljs.highlightAll();
     });
+    loadJs('/assets/mathjax/tex-mml-svg.js', false, true, function () { });
 });
-loadJs('/assets/mathjax/tex-mml-svg.js', function () { });
 
 loadCSS('/assets/remarkdown.css');
 loadCSS('/assets/hljs-grayscale.css');
