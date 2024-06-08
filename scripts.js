@@ -13,6 +13,8 @@ var decorate = function (oldDom, newHTML) {
 var loadJs = function (url, async, defer, callback) {
     var script = document.createElement('script')
     script.type = 'text/javascript';
+    if (async) script.async = "async";
+    if (defer) script.defer = "defer";
     if (script.readyState) {  //IE
         script.onreadystatechange = function () {
             if (script.readyState == 'loaded' ||
