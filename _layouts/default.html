@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.baseurl }}/atom.xml" />
+  </head>
+
+  <body>
+    <div id="main" class="remarkdown h1-underline ul-star em-star strong-star a-showurl code-tick pre-tick"
+      style="font-family: monospace;">
+      {{ content }}
+    </div>
+    <script src="/scripts.js"></script>
+  </body>
+
+</html>

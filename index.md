@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Maoyin Sun's Home Page</title>
-  </head>
-  <body>
-    <div id="main" style="white-space: pre; font-family: monospace;">
+---
+layout: default
+title: "Maoyin Sun's Home Page"
+language: en-DE
+---
+
 Maoyin Sun's Home Page
 ======================
 
@@ -18,20 +15,21 @@ Gaudeāmus igitur, iuvenēs dum sumus
 By continuing to visit this website, you are agreeing to be bound by the terms
 and conditions of the End-user License Agreement below.
 
-* [CV in English](./CV.Maoyin.Sun.en-DE.pdf)       (Last update: 15. May 2023)
-* [CV in Chinese](./CV.Maoyin.Sun.zh-CN.pdf)       (Last update: 14. July 2016)
+* [CV in English](./CV.Maoyin.Sun.en-DE.pdf) (Last update: 29. April 2024)
+* [CV in German](./CV.Maoyin.Sun.de-DE.pdf) (Last update: 02. August 2024)
 * [Blog](./blog/)
 
 ## Connect Me
 
 The name also appears as '孙茂胤', 'Sun, Maoyin', 'simonmysun' or 'Simon Sun'.
 
-* [Facebook](https://facebook.com/simonmysun)
-* [Github](https://github.com/simonmysun)
 * [LinkedIn](https://linkedin.com/in/simonmysun)
+* [Github](https://github.com/simonmysun)
+* [Facebook](https://facebook.com/simonmysun)
 
 
-* Location: [Peter-Fischer-Allee 23, 65929 Frankfurt am Main, Germany](geo:50.11116935343097,8.546335229860983,123.3;crs=wgs84;u=5)
+* Location: [Peter-Fischer-Allee 23, 65929 Frankfurt am Main,
+Germany](geo:50.11116935343097,8.546335229860983,123.3;crs=wgs84;u=5)
 * Tel:
   * [+49 1525 6965008](tel:+4915256965008)
   * [+86 1554 1110411](tel:+8615541110411)
@@ -39,7 +37,7 @@ The name also appears as '孙茂胤', 'Sun, Maoyin', 'simonmysun' or 'Simon Sun'
   * [mail@maoyin.eu](mailto:mail@maoyin.eu)
   * at simonmysun dot gmail com
 * Home page:
-  * [https://maoyin.eu/](https://maoyin.eu/)
+* [https://maoy //maoyin.eu/)
 
 ## Privacy Policy
 
@@ -103,8 +101,3 @@ remaining provisions will continue in full force and effect.
 
 8. The author of this website reserves the right, at its sole discretion, to
 modify or replace this Agreement at any time.
-
-    </div>
-    <script src="scripts.js"></script>
-  </body>
-</html>

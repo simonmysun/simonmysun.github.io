@@ -1,14 +1,11 @@
 
 var mainDom = document.getElementById('main');
 
-var decorate = function (oldDom, newHTML) {
-    oldDom.innerHTML = newHTML;
-    oldDom.className = 'remarkdown h1-underline ul-star em-star strong-star a-showurl code-tick pre-tick';
-    oldDom.style.whiteSpace = '';
-    oldDom.style.fontFamily = '';
-    oldDom.style.maxWidth = '';
-    oldDom.style.margin = '';
-};
+// mainDom.className = 'remarkdown h1-underline ul-star em-star strong-star a-showurl code-tick pre-tick';
+mainDom.style.whiteSpace = '';
+// mainDom.style.fontFamily = '';
+// mainDom.style.maxWidth = '';
+// mainDom.style.margin = '';
 
 var loadJs = function (url, async, defer, callback) {
     var script = document.createElement('script')
@@ -53,13 +50,10 @@ MathJax = {
     }
 };
 
-loadJs('/assets/marked.min.js', false, false, function () {
-    decorate(mainDom, marked(mainDom.innerText.replace(/&gt;+/g, '>')));
-    loadJs('/assets/highlight.min.js', false, true, function () {
-        hljs.highlightAll();
-    });
-    loadJs('/assets/mathjax/tex-mml-svg.js', false, true, function () { });
+loadJs('/assets/highlight.min.js', false, true, function () {
+    hljs.highlightAll();
 });
+loadJs('/assets/mathjax/tex-mml-svg.js', false, true, function () { });
 
 loadCSS('/assets/remarkdown.css');
 loadCSS('/assets/hljs-grayscale.css');
