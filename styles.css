@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     background-color: #fff;
@@ -9,8 +10,7 @@ html, body {
     text-align: left;
 }
 
-body {
-}
+body {}
 
 *::selection {
     background: #222;
@@ -26,8 +26,109 @@ body {
     outline: 1px solid #777;
 }
 
-img {
+.remarkdown img {
     max-width: min(78ch, calc(100vmin - 4ch));
     object-fit: contain;
     max-height: 75vmin;
+}
+
+.remarkdown {
+    white-space: normal;
+    overflow-wrap: normal;
+    word-break: break-word;
+    hyphens: auto;
+    max-width: 80ch;
+    margin: 0 auto;
+    padding: 1em 1ch;
+}
+
+.remarkdown h1 {
+    color: #666;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.remarkdown h2 {
+    color: #444;
+    font-weight: 600;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.remarkdown h3,
+.remarkdown h4,
+.remarkdown h5,
+.remarkdown h6 {
+    color: #333;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.remarkdown p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.remarkdown figure {
+    margin: 1em 0 1em;
+}
+
+.remarkdown hr {
+    margin: 1em 0 1em;
+}
+
+.remarkdown ul {
+    margin: 1em 0ch 1em 2ch;
+}
+
+.remarkdown ol {
+    margin: 1em 0ch 1em 4ch;
+}
+
+.remarkdown a {
+    color: #333;
+    text-decoration: none;
+}
+
+.remarkdown pre {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.remarkdown pre {
+    margin-left: 0ch;
+}
+
+.remarkdown pre {
+    white-space: pre-wrap;
+}
+
+.remarkdown blockquote {
+    margin: 1em 2ch 1em 2ch;
+}
+
+
+.remarkdown blockquote::before {
+    white-space: normal;
+}
+
+.remarkdown.table-marker table {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.remarkdown.table-marker tr:first-child>th:not([scope="row"]) {
+    padding-bottom: 1em;
+}
+
+
+.remarkdown ::before,
+.remarkdown ::after {
+    color: #777;
+}
+
+.remarkdown.ul-star ul>li::before {
+    margin-left: -2ch;
 }
