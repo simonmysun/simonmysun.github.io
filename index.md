@@ -23,11 +23,10 @@ and conditions of the End-user License Agreement below.
 
 The name also appears as '孙茂胤', 'Sun, Maoyin', 'simonmysun' or 'Simon Sun'.
 
-* [LinkedIn](https://linkedin.com/in/simonmysun)
-* [Github](https://github.com/simonmysun)
-* [Facebook](https://facebook.com/simonmysun)
-
-
+* Social Networks:
+  * [LinkedIn](https://linkedin.com/in/simonmysun)
+  * [Github](https://github.com/simonmysun)
+  * [Facebook](https://facebook.com/simonmysun)
 * Location: [Peter-Fischer-Allee 23, 65929 Frankfurt am Main,
 Germany](geo:50.11116935343097,8.546335229860983,123.3;crs=wgs84;u=5)
 * Tel:
@@ -37,7 +36,7 @@ Germany](geo:50.11116935343097,8.546335229860983,123.3;crs=wgs84;u=5)
   * [mail@maoyin.eu](mailto:mail@maoyin.eu)
   * at simonmysun dot gmail com
 * Home page:
-* [https://maoy //maoyin.eu/)
+  * [https://maoyin.eu](https://maoyin.eu/)
 
 ## Privacy Policy
 
