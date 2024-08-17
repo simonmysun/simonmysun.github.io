@@ -48,7 +48,7 @@ device or the devices between.
 
 ### About foreign resources and third-party services
 Some of the web pages under this website include foreign resources. Most modern
-browsers load them automatically which may leads to being tracked.
+browsers load them automatically which may lead to being tracked.
 
 The use of third-party services will be announced at the bottom of the page if
 there is any.
