@@ -15,8 +15,8 @@ Gaudeāmus igitur, iuvenēs dum sumus
 By continuing to visit this website, you are agreeing to be bound by the terms
 and conditions of the End-user License Agreement below.
 
-* [CV in English](./CV.Maoyin.Sun.en-DE.pdf) (Last update: 29. April 2024)
-* [CV in German](./CV.Maoyin.Sun.de-DE.pdf) (Last update: 02. August 2024)
+* [CV in English](./CV.Maoyin.Sun.en-DE.pdf) (Last update: 17. August 2024)
+* [CV in German](./CV.Maoyin.Sun.de-DE.pdf) (Last update: 17. August 2024)
 * [Blog](./blog/)
 
 ## Connect Me
