@@ -51,6 +51,7 @@ MathJax = {
 };
 
 loadJs('/assets/highlight.min.js', false, true, function () {
+    hljs.configure({ languages: [] });
     hljs.highlightAll();
 });
 loadJs('/assets/mathjax/tex-mml-svg.js', false, true, function () { });
