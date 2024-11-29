@@ -2,7 +2,7 @@
 /* includes: all styles; defaults: hn-reset hn-hash ul-hyphen ol-decimal quote-gt em-star strong-star a-bracket code-tick pre-indent hr-star; */
 .remarkdown {
   line-height: 1.5;
-  font-family: monospace, monospace;
+  font-family: "Noto Sans Mono", "Noto Sans SC", monospace;
 }
 
 .remarkdown pre,

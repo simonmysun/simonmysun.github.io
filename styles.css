@@ -12,13 +12,18 @@
     src: url(/assets/NotoSansMono.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: "Noto Sans SC";
+    src: url(/assets/NotoSansSC.ttf) format('truetype');
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
     background-color: #fff;
     color: #222;
-    font-family: "Noto Sans Mono", monospace;
+    font-family: "Noto Sans Mono", "Noto Sans SC", monospace;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
