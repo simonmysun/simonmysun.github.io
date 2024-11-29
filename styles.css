@@ -159,3 +159,15 @@ body {}
 .remarkdown.ul-star ul>li::before {
     margin-left: -2ch;
 }
+
+.remarkdown em,
+.remarkdown i {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.remarkdown strong,
+.remarkdown b {
+    font-style: normal;
+    font-weight: bold;
+}
