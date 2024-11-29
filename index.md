@@ -21,7 +21,11 @@ and conditions of the End-user License Agreement below.
 
 ## Connect Me
 
-The name also appears as '孙茂胤', 'Sun, Maoyin', 'simonmysun' or 'Simon Sun'.
+The name also `appears` as '孙茂胤', 'Sun, Maoyin', 'simonmysun' or 'Simon Sun'.
+
+```javascript
+console.log('Hello, World!');
+```
 
 * Social Networks:
   * [LinkedIn](https://linkedin.com/in/simonmysun)
