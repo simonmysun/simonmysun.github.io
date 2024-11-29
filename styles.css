@@ -7,12 +7,18 @@
     --color-5: #193441;
 }
 
+@font-face {
+    font-family: "Noto Sans Mono";
+    src: url(/assets/NotoSansMono.ttf) format('truetype');
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
     background-color: #fff;
     color: #222;
+    font-family: "Noto Sans Mono", monospace;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
