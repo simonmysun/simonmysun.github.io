@@ -43,14 +43,14 @@ body {}
 }
 
 .remarkdown h1 {
-    color: #666;
+    color: #005994;
     font-weight: 700;
     margin-top: 2em;
     margin-bottom: 1em;
 }
 
 .remarkdown h2 {
-    color: #444;
+    color: #005994;
     font-weight: 600;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -60,7 +60,7 @@ body {}
 .remarkdown h4,
 .remarkdown h5,
 .remarkdown h6 {
-    color: #333;
+    color: #005994;
     font-weight: 500;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -88,19 +88,32 @@ body {}
 }
 
 .remarkdown a {
-    color: #333;
+    color: #005994;
     text-decoration: none;
 }
 
 .remarkdown pre {
+    background-color: #f8f8f8;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 0ch;
     white-space: pre-wrap;
 }
 
+.hljs {
+    padding: 1em;
+    margin: 0;
+    overflow-x: auto;
+    background: #f8f8f8;
+}
+
 .remarkdown pre code {
     padding: 0;
+    color: inherit;
+}
+
+.remarkdown code {
+    color: #786326;
 }
 
 .remarkdown blockquote {
@@ -124,7 +137,7 @@ body {}
 
 .remarkdown ::before,
 .remarkdown ::after {
-    color: #777;
+    color: #264F78;
 }
 
 .remarkdown.ul-star ul>li::before {
