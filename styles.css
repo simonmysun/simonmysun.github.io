@@ -108,6 +108,11 @@ body {}
     font-weight: 500;
 }
 
+.remarkdown.del-gfm del {
+    text-decoration: line-through;
+    text-decoration-color: var(--color-4)
+}
+
 .remarkdown pre {
     background-color: #f8f8f8;
     margin-top: 1em;
